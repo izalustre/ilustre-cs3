@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ div{
+ color:gray
+ }
+</style>
+<title>Iza web</title>
+<meta name="author" content="Iza">
+<meta name="description" content="Sample Iza">
+</head>
+<body style="text-align:center;"> 
+<h1 style="color: gray"> SAMPLE CONTENTS </h1>
+<p> Sample contents only.</p>
+<div style="color:gray">
+I am Elizabeth Adora Ilustre.
+<br>
+I am 14 years old.
+</div>
+<h3> Here are my hobbies. </h3>
+<ul>
+<li>Playing Games</li>
+<li> Painting </li>
+<li> Sleepimg </li>
+</ul>
+</body>
+</html>

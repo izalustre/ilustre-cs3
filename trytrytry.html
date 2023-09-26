@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dear Xander</title>
+    <meta name="author" content="Iza">
+    <meta name="description" content="Dear Xander">
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <p id="target"></p>
+        <!---target elem-->
+        <button>DEAR Xander</button>
+        <!--trigger-->
+
+        <script>
+            const target="WALA KO KWARTA HAHAHA";
+            //content
+
+            let ctr = 0;
+            //pointer
+
+            document.querySelector("button").onclick=()=>{
+                const interval=setInterval(()=>{
+                    document.querySelector("#target").textContent+= target[ctr];
+                    ctr+=1;
+
+                    if(ctr >= target.length){
+                        clearInterval(interval)
+                    }
+                },100)
+            }
+
+            </script>
+            
+
+    </body>
+    </html>
